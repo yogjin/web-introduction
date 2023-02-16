@@ -16,6 +16,7 @@
       </ul>
     </header>
     <main id="best-movies">
+      <h1>인생 영화 BEST5</h1>
       <table border="1">
         <tr>
           <th>순위</th>
@@ -27,7 +28,7 @@
         <tr>
           <td>1</td>
           <td>마션</td>
-          <td><img src="https://movie-phinf.pstatic.net/20151014_112/1444802557577pCaPD_JPEG/movie_image.jpg?type=m203_290_2" /></td>
+          <td><img src="../images/마션.jpeg" /></td>
           <td>
             포기란 없다! 반드시 지구로 돌아갈 것이다! NASA 아레스3탐사대는 화성을 탐사하던 중 모래폭풍을 만나고 팀원 마크 와트니가 사망했다고 판단, 그를 남기고
             떠난다. 극적으로 생존한 마크 와트니는 남은 식량과 기발한 재치로 화성에서 살아남을 방법을 찾으며 자신이 살아있음을 알리려 노력한다. 마침내, 자신이
@@ -39,7 +40,7 @@
         <tr>
           <td>2</td>
           <td>극장판 짱구는 못말려: 어른제국의 역습</td>
-          <td><img src="https://movie-phinf.pstatic.net/20111222_250/1324507303294fq3KY_JPEG/movie_image.jpg?type=m203_290_2" /></td>
+          <td><img src="../images/짱구.jpeg" /></td>
           <td>
             어른들과의 아이들의 전쟁이 코믹하게 그려지는 시리즈 9번째 작품 20세기를 그리워하는 사람이 현재의 21세기 일본은 감정도 없고 메마른 곳이라며 현재의
             일본을 20세기 되돌려 놓으려한다. 그래서 짱구네 가족이 자신들의 미래를 찾기 위해 이를 막아내고 다시 일본은 원래대로 돌아온다는 이야기. 어느날 일본에
@@ -54,7 +55,7 @@
         <tr>
           <td>3</td>
           <td>셔터 아일랜드</td>
-          <td><img src="https://movie-phinf.pstatic.net/20111223_134/13246055676979Y0FT_JPEG/movie_image.jpg?type=m203_290_2" /></td>
+          <td><img src="../images/셔터아일랜드.jpeg" /></td>
           <td>
             누군가 사라졌다 보스턴 셔터아일랜드의 정신병원에서 환자가 실종되는 사건이 발생한다. 연방보안관 테디 다니엘스(레오나르도 디카프리오)는 수사를 위해
             동료 척(마크 러팔로)과 함께 셔터아일랜드로 향한다. 셔터 아일랜드에 위치한 이 병원은 중범죄를 저지른 정신병자를 격리하는 병동으로 탈출 자체가
@@ -67,7 +68,7 @@
         <tr>
           <td>4</td>
           <td>인턴</td>
-          <td><img src="https://movie-phinf.pstatic.net/20150910_279/1441866003899BJKw7_JPEG/movie_image.jpg?type=m203_290_2" /></td>
+          <td><img src="../images/인턴.jpeg" /></td>
           <td>
             프라다 입은 악마를 벗어난 '앤 해서웨이', 수트 입은 70세 인턴 '로버트 드 니로'를 만나다! 창업 1년 반 만에 직원 220명의 성공신화를 이룬 줄스(앤
             해서웨이). TPO에 맞는 패션센스, 업무를 위해 사무실에서도 끊임 없는 체력관리, 야근하는 직원 챙겨주고, 고객을 위해 박스포장까지 직접 하는 열정적인
@@ -79,7 +80,7 @@
         <tr>
           <td>5</td>
           <td>쇼생크 탈출</td>
-          <td><img src="https://movie-phinf.pstatic.net/20160119_278/14531650465287bcuk_JPEG/movie_image.jpg?type=m203_290_2" /></td>
+          <td><img src="../images/쇼생크탈출.jpeg" /></td>
           <td>
             두려움은 너를 죄수로 가두고 희망은 너를 자유롭게 하리라 촉망 받던 은행 부지점장 ‘앤디(팀 로빈슨 分)’는 아내와 그 애인을 살해한 혐의로 종신형을 받고
             쇼생크 교도소에 수감된다. 강력범들이 수감된 이곳에서 재소자들은 짐승 취급 당하고, 혹여 간수 눈에 잘못 보였다가는 개죽음 당하기 십상이다. 처음엔 적응
@@ -92,6 +93,19 @@
         </tr>
       </table>
     </main>
-    <footer id="guest-book"></footer>
+    <footer id="guest-book">
+      <h1>방명록</h1>
+      이름:<input type="text" />
+      <p>본인 취향 영화</p>
+      <div>
+        <input type="checkbox" name="movie" value="Martian">마션</input>
+        <input type="checkbox" name="movie" value="Crayon">짱구: 어른제국의 역습</input>
+        <input type="checkbox" name="movie" value="Shutter Island">셔터 아일랜드</input>
+        <input type="checkbox" name="movie" value="Intern">인턴</input>
+        <input type="checkbox" name="movie" value="The Shawshank Redemption">쇼생크 탈출</input>
+      </div>
+      <button type="button">등록</button>
+      <button type="reset">취소</button>
+    </footer>
   </body>
 </html>
